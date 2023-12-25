@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
   return (
@@ -31,19 +32,7 @@ const Navbar = () => {
         <div className="sm:hidden">
           <button className="text-white block sm:hidden ml-5">
             <i className="fas fa-bars text-white">
-              <img src="/Rectangle.png" alt="" srcset="" className="ml-10" />
-              <img
-                src="/Rectangle.png"
-                alt=""
-                srcset=""
-                className="mt-2 ml-10"
-              />
-              <img
-                src="/Rectangle.png"
-                alt=""
-                srcset=""
-                className="mt-2 ml-10"
-              />
+              <MenuIcon/>
             </i>
           </button>
         </div>
